@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1013043071972",
+    "firebase_url": "https://lady-s-taxi-cherkessk.firebaseio.com",
+    "project_id": "lady-s-taxi-cherkessk",
+    "storage_bucket": "lady-s-taxi-cherkessk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013043071972:android:54a768f24c6afd79",
+        "android_client_info": {
+          "package_name": "com.kanshau.ladytaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013043071972-bq6198p4sq0i03ninh7ir54mmve1k10h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF_R1vI6_u2SSWVutN0O9yH5WoyZvsc5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013043071972-bq6198p4sq0i03ninh7ir54mmve1k10h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@color/colorBackground">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:layout_weight="1">
+
+        <include layout="@layout/view_toolbar" />
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginBottom="20dp"
+                      android:layout_marginTop="20dp">
+
+            <ImageView android:id="@+id/back_button"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/back_arrow_icon"/>
+
+            <Space android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/colorText"
+                      android:textSize="18sp"
+                      android:text="Настройки профиля"
+                      android:gravity="center"/>
+
+            <Space android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"/>
+        </LinearLayout>
+
+        <ScrollView android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:paddingTop="10dp"
+                              android:paddingBottom="10dp"
+                              android:orientation="horizontal">
+
+                    <ImageView android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/icon_phone"/>
+
+                    <Space android:layout_width="10dp" android:layout_height="wrap_content"/>
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="16sp"
+                                  android:text="Телефон"/>
+
+                        <Space android:layout_width="wrap_content" android:layout_height="10dp"/>
+
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textColor="@color/colorText"
+                                  android:textSize="16sp"
+                                  android:text="+79889187359"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:paddingTop="10dp"
+                              android:paddingBottom="10dp"
+                              android:orientation="horizontal">
+
+                    <ImageView android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/icon_person"/>
+
+                    <Space android:layout_width="10dp" android:layout_height="wrap_content"/>
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="16sp"
+                                  android:text="Имя"/>
+
+                        <Space android:layout_width="wrap_content" android:layout_height="10dp"/>
+
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textColor="@color/colorText"
+                                  android:textSize="16sp"
+                                  android:text="Мадина"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center_vertical"
+                              android:paddingTop="10dp"
+                              android:paddingBottom="10dp"
+                              android:orientation="horizontal">
+
+                    <ImageView android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:src="@drawable/icon_email"/>
+
+                    <Space android:layout_width="10dp" android:layout_height="wrap_content"/>
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="wrap_content"
+                                  android:orientation="vertical">
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textSize="16sp"
+                                  android:text="E-mail"/>
+
+                        <Space android:layout_width="wrap_content" android:layout_height="10dp"/>
+
+                        <TextView android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:textColor="@color/colorText"
+                                  android:textSize="16sp"
+                                  android:text="madina@mail.ru"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <include layout="@layout/view_bottombar" />
+
+</LinearLayout>
